@@ -65,7 +65,7 @@ const App = () => {
   const [value, setValue] = useState("")
   const [query, setQuery] = useState("")
   const [page, setPage] = useState(1)
-  const [state, dispatch] = useReducer(reducer, initialState)
+  const [state] = useReducer(reducer, initialState)
   const [favorites, setFavorites] = useState(false)
 
   useEffect(() => {
@@ -130,7 +130,7 @@ const App = () => {
                 <div>No beers match your criteria at this time</div>
                 <div>please revise your search or add to your favorites</div>
               </div>
-              <iframe src="https://giphy.com/embed/Vdytz82ynweJB8nBTE" width="480" height="360" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/weekend-cheers-prost-Vdytz82ynweJB8nBTE"></a></p>
+              <iframe title="beer-default" src="https://giphy.com/embed/Vdytz82ynweJB8nBTE" width="480" height="360" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
             </div>
           }
         </div>
