@@ -12,18 +12,17 @@
 
 .search-bar {
   position: relative;
-  width: 50%;
+  width: 867px;
   max-width: 867px;
   margin: 50px auto 0;
   display: block;
   margin-bottom: 10px;
 }
 input {
-  max-width: 760px;
-  width: 86%;
+  width: 87%;
   height: 40px;
   border: 2px solid #dedede;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
   padding-left: 15px;
   font-size: 18px;
   font-weight: 100;
@@ -32,8 +31,7 @@ input {
   color: #dedede;
 }
 .search-button {
-  right: 8px;
-  position: absolute;
+  margin-left: 8px;
   height: 45.5px;
   width: 80px;
   background-color: #4078a5;
@@ -41,7 +39,7 @@ input {
   border: none;
   color: white;
   font-size: 18px;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
   font-weight: 100;
 }
 .beer-cards-wrapper {
