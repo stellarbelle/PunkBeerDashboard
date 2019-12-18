@@ -1,0 +1,6 @@
+
+
+My approach to this was to use React Hooks (useEffect, useState, useReducer) and I wrote my tests using Enzyme.
+This project took me about 4.5hrs to complete. Improvements I would make would be to add media queries to the CSS
+to make it more dynamic on all screen sizes. I would also add a login screen so that "favorites" would be more secure,
+currently they are being saved in local storage. And I would add a loading screen for when the API call is being made to grab the beers.

@@ -1,0 +1,138 @@
+.app-wrapper {
+  text-align: left;
+  font-weight: 100;
+}
+
+.app-header {
+  background-color: SteelBlue ;
+  color: black;
+  height: 40px;
+  padding: 20px;
+}
+
+.search-bar {
+  position: relative;
+  width: 50%;
+  max-width: 867px;
+  margin: 50px auto 0;
+  display: block;
+  margin-bottom: 10px;
+}
+input {
+  max-width: 760px;
+  width: 86%;
+  height: 40px;
+  border: 2px solid #dedede;
+  border-radius: 5px 0 0 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 100;
+}
+::placeholder {
+  color: #dedede;
+}
+.search-button {
+  right: 8px;
+  position: absolute;
+  height: 45.5px;
+  width: 80px;
+  background-color: #4078a5;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  font-weight: 100;
+}
+.beer-cards-wrapper {
+  margin: 0 auto;
+  width: 86vw;
+}
+.beer-card {
+  height: 150px;
+  width: 25vw;
+  border: 1px solid #dedede;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.beer-description {
+  /* white-space: nowrap; */
+  overflow: hidden;
+  height: 110px;
+  /* text-overflow: ellipsis; */
+}
+
+.beer-image {
+  width: 55px;
+  float: left;
+  height: 70%;
+  margin-top: 20px;
+}
+.beer-info {
+  margin-left: 75px;
+  display: block;
+  position: relative;
+}
+.beer-title {
+  font-weight: bold;
+}
+.rating {
+  float: right;
+  color: #a3c2db;
+  cursor: pointer;
+}
+.checked {
+  color: SteelBlue ;
+}
+.button-wrapper {
+  display: inline-block;
+  float: right;
+}
+
+.button-wrapper {
+  display: inline-block;
+  float: right;
+}
+
+.button-wrapper {
+  float: right;
+  margin-top: 10px;
+}
+
+.favorites-button, .home-button {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.home-button {
+  margin-right: 30px;
+}
+
+.home-button.active, .favorites-button.active {
+  opacity: 1
+}
+
+.header-title {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.page-back {
+  width: 126px;
+  margin: 0 auto;
+}
+.default-header {
+  padding: 20px 0;
+}
+.default-screen {
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
